@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+body {
+    margin: 0;
+    padding: 0;
+    background: #AA0000;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.teams {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.boxScore {
+height: 180px;
+border-radius: 5px;
+background: #080001;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 0 20px 0;
+}
+
+.scoreFont {
+    color: #B3995D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    color: #EEEEEE;
+    background: #AA0000;
+    margin: 0 10px 0 0;
+    border: 2px solid #EEEEEE;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lastBtn {
+    margin-right: 0 !important;
+}
+
+#welcome{
+    text-align: center;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#reset {
+    border-radius: 5px;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #AA0000;
+    margin: 50px auto 0 auto;
+    border: 2px solid #EEEEEE;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}

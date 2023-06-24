@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="American Football Scoreboard" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Michael Bridgeman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <!--no jpg file-->
+    <title>American Football Scoreboard</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 id="welcome">Welcome to 🏈</h1>
+    <div class="container">
+      <div>
+        <h3 class="teams">HOME</h3>
+        <div class="boxScore">
+          <p id="homeScore" class="scoreFont"></p>
+          </div>
+          <div class="btns">
+            <button id="plusOneHome" class="btn">+1</button>
+            <button id="plusTwoHome" class="btn">+2</button>
+            <button id="plusThreeHome" class="btn">+3</button>
+            <button id="plusSixHome" class="btn lastBtn">+6</button>
+          </div>
+      </div>
+      <div>
+        <h3 class="teams">AWAY</h3>
+        <div class="boxScore">
+          <p id="awayScore" class="scoreFont"></p>
+        </div>
+        <div class="btns">
+            <button id="plusOneAway" class="btn">+1</button>
+            <button id="plusTwoAway" class="btn">+2</button>
+            <button id="plusThreeAway" class="btn">+3</button>
+            <button id="plusSixAway" class="btn lastBtn">+6</button>
+          </div>
+      </div>
+    </div>
+    <button id="reset">Reset Score</button>
+    <script src="script.js"></script>
+  </body>
+</html>
