@@ -13,33 +13,33 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1 id="welcome">Welcome to 🏈</h1>
-    <div class="container">
-      <div>
+    <h1 id="welcomeText">Welcome to 🏈</h1>
+    <main class="container">
+      <section>
         <h3 class="teams">HOME</h3>
         <div class="boxScore">
           <p id="homeScore" class="scoreFont"></p>
-          </div>
-          <div class="btns">
-            <button id="plusOneHome" class="btn">+1</button>
-            <button id="plusTwoHome" class="btn">+2</button>
-            <button id="plusThreeHome" class="btn">+3</button>
-            <button id="plusSixHome" class="btn lastBtn">+6</button>
-          </div>
-      </div>
-      <div>
+        </div>
+        <div class="btns">
+          <button id="plusOneHome" class="btn" onclick="addPointsToHomeTeam(1)">+1</button>
+          <button id="plusTwoHome" class="btn" onclick="addPointsToHomeTeam(2)">+2</button>
+          <button id="plusThreeHome" class="btn" onclick="addPointsToHomeTeam(3)">+3</button>
+          <button id="plusSixHome" class="btn lastBtn" onclick="addPointsToHomeTeam(6)">+6</button>
+        </div>
+      </section>
+      <section>
         <h3 class="teams">AWAY</h3>
         <div class="boxScore">
           <p id="awayScore" class="scoreFont"></p>
         </div>
         <div class="btns">
-            <button id="plusOneAway" class="btn">+1</button>
-            <button id="plusTwoAway" class="btn">+2</button>
-            <button id="plusThreeAway" class="btn">+3</button>
-            <button id="plusSixAway" class="btn lastBtn">+6</button>
-          </div>
-      </div>
-    </div>
+          <button id="plusOneAway" class="btn" onclick="addPointsToAwayTeam(1)">+1</button>
+          <button id="plusTwoAway" class="btn" onclick="addPointsToAwayTeam(2)">+2</button>
+          <button id="plusThreeAway" class="btn" onclick="addPointsToAwayTeam(3)">+3</button>
+          <button id="plusSixAway" class="btn lastBtn" onclick="addPointsToAwayTeam(6)">+6</button>
+        </div>
+      </section>
+    </main>
     <button id="reset">New Game</button>
     <script src="script.js"></script>
   </body>
